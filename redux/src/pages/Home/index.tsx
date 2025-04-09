@@ -8,9 +8,9 @@ export default function Home(){
 
     return (
         <div>
-            <p>Você está na página Home</p>
-            <Link to='/sobre'>Sobre</Link><br />
-            <Link to='/teste'>404</Link>
+            <p style={{fontSize: '20px', textAlign: 'center'}}>Você está na página <b>Home</b></p>
+            <Link to='/sobre'>Sobre</Link><br /><br />
+            <Link to='/teste'>404</Link><br /><br />
             <hr />
             <button onClick={ () => dispatch(iniciar()) }>Iniciar o Timer</button>
             <button onClick={ () => dispatch(parar()) }>Parar o Timer</button>
